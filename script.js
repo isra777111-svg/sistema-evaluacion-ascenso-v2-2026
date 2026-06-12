@@ -1032,16 +1032,16 @@ function renderMaterialsList() {
             let filePath = item.path.replace('.json', '.mp3');
 
             const audioLinks = {
-                'basica/1escalafon.mp3': 'https://archive.org/download/3prevencion/1escalafon.mp3',
-                'basica/2faltas.mp3': 'https://archive.org/download/3prevencion/2faltas.mp3',
-                'basica/3prevencion.mp3': 'https://archive.org/download/3prevencion/3prevencion.mp3',
-                'basica/4violencia.mp3': 'https://archive.org/download/3prevencion/4violencia.mp3',
-                'basica/5discapacidad.mp3': 'https://archive.org/download/3prevencion/5discapacidad.mp3',
-                'basica/6inclusiva.mp3': 'https://archive.org/download/3prevencion/6inclusiva.mp3',
-                'textos/1diseño.mp3': 'https://archive.org/download/2estilos/1dise%C3%B1o.mp3',
-                'textos/2estilos.mp3': 'https://archive.org/download/2estilos/2estilos.mp3',
-                'textos/3neurociencia.mp3': 'https://archive.org/download/2estilos/3neurociencia.mp3',
-                'textos/4innovacion.mp3': 'https://archive.org/download/2estilos/4innovacion.mp3'
+                'basica/1escalafon.mp3': 'https://archive.org/download/6inclusiva_202606/1escalafon.mp3',
+                'basica/2faltas.mp3': 'https://archive.org/download/6inclusiva_202606/2faltas.mp3',
+                'basica/3prevencion.mp3': 'https://archive.org/download/6inclusiva_202606/3prevencion.mp3',
+                'basica/4violencia.mp3': 'https://archive.org/download/6inclusiva_202606/4violencia.mp3',
+                'basica/5discapacidad.mp3': 'https://archive.org/download/6inclusiva_202606/5discapacidad.mp3',
+                'basica/6inclusiva.mp3': 'https://archive.org/download/6inclusiva_202606/6inclusiva.mp3',
+                'textos/1diseño.mp3': 'https://archive.org/download/6inclusiva_202606/1dise%C3%B1o.mp3',
+                'textos/2estilos.mp3': 'https://archive.org/download/6inclusiva_202606/2estilos.mp3',
+                'textos/3neurociencia.mp3': 'https://archive.org/download/6inclusiva_202606/3neurociencia.mp3',
+                'textos/4innovacion.mp3': 'https://archive.org/download/6inclusiva_202606/4innovacion.mp3'
             };
 
             if (audioLinks[filePath]) {
